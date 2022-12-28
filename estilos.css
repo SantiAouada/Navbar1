@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+    height: 10vh;
+}
+.name{
+    display: flex;
+    width: 10%;
+}
+.logo{
+    width:30px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav > a{
+    margin-left: 1.5rem;
+}
+div{
+    margin-left: 1rem;
+}
+h1{
+    color: blueviolet;
+    margin-left: 13px;
+    font-size: 22px;
+}
+button{
+    background-color: blueviolet;
+    border-radius: 12%;
+    padding: 7.5px;
+    border: 0;
+    color: white;
+    margin-left: 13px;
+}
